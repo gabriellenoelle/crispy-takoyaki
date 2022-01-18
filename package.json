@@ -1,0 +1,30 @@
+{
+  "name": "crispy-takoyaki",
+  "version": "1.0.0",
+  "description": "Your challenge this week is to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriellenoelle/crispy-takoyaki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriellenoelle/crispy-takoyaki/issues"
+  },
+  "homepage": "https://github.com/gabriellenoelle/crispy-takoyaki#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.13.0"
+  }
+}
